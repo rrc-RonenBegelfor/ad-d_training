@@ -14,3 +14,7 @@ if (names.length > 4) {
 } else {
     console.log("Did you even provide any names..?")
 }
+
+/* Side note, watched until block scopes. I am pretty sure it is cool to know but
+isn't it better to avoid using it?
+*/
