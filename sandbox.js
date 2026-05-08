@@ -22,3 +22,28 @@
 
 // // Cannot re-assign the value of a constant
 // points = 50;
+
+/* Example 5 - strings */
+// strings
+console.log("Hello world!");
+
+// string concatenation
+let email = "rrctest@rrc.ca";
+console.log(email);
+
+let firstName = "Ronen";
+let lastName = " Begelfor";
+
+let fullName = firstName + lastName;
+console.log(fullName);
+
+// getting characters
+console.log(fullName[0]);
+
+// string length
+console.log(fullName.length);
+
+// string methods
+console.log(fullName.toUpperCase())
+let result = fullName.toLowerCase();
+console.log(result);
